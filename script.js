@@ -182,10 +182,3 @@ btnBox.addEventListener("click", evt => {
   shuffle();
 });
 const buttons = document.querySelectorAll("button");
-
-console.log(buttons);
-// console.log(evt.target);
-// console.log(parseInt(evt.target.innerText));
-// });
-
-// btnBox.addEventListener("click", () => shuffle()); // shuffle();
