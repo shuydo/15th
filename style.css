@@ -8,7 +8,7 @@
   user-select: none;
   position: relative;
   border: thick lightgray ridge;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: lightyellow;
 }
 
@@ -23,6 +23,7 @@
   box-sizing: border-box;
   border: thick ridge lightgray;
   background-color: white;
+  cursor: pointer;
 }
 
 #btnBox {

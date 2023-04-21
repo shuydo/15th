@@ -45,7 +45,7 @@ const change = (T, E) => {
   moveSound.play();
 };
 
-// ф-я, для перемещений и не только одной плитки (со звуком)
+// ф-я, для перемещений плитки (или сразу нескольких в ряду) (со звуком)
 const move = T => {
   const E = tiles[eCell.pos - 1],
     [row, col] = defCoordByPos(T.dataset.pos),
@@ -96,9 +96,7 @@ const shuffle = () => {
 
     move(randomTile, E);
   }
-  // Установка цвета рамки в исходное состояние
-  board.style.outlineColor = "lightgray";
-
+  board.style.borderColor = "lightgray"; // Установка цвета рамки в исходное состояние
   tiles[N - 1].classList.remove("nopointer"); //возвращение вида курсора над клеткой появления кнопки
 };
 
