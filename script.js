@@ -161,7 +161,7 @@ function handler() {
   board.style.pointerEvents = "none";
   lastC.appendChild(btnBox);
 
-  winSound.play();
+  winSound.play(); // winSound.playbackRate = 4;
 }
 
 build();

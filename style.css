@@ -7,7 +7,7 @@
   margin: 0 auto;
   user-select: none;
   position: relative;
-  border: thick lightgray ridge;
+  border: thick tomato ridge;
   border-radius: 10px;
   background-color: lightyellow;
 }
